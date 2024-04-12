@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:wght@100;300;400&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'raleway';
+}
+
+.menu {
+    display: flex;
+    justify-items: center;
+
+    width: 100%;
+    height: 144px;
+    background: #30343F;
+}
+
+.contenedor{
+    display: flex;
+}
+.contenedor a {
+    display: flex;
+    align-items: center;
+
+}
+
+.img1 {
+
+
+    height: 65.19194793701172px;
+    width: 80.23529815673828px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding-left: 100px;
+
+}
+
+.img2 {
+
+    height: 30.308128356933594px;
+    width: 270.9243469238281px;
+    left: 101.07568359375px;
+    top: 17.71429443359375px;
+    margin-left: 20px;
+
+}
+
+.menu_salir {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    width: 100%
+}
+
+p {
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    transition: opacity 300ms;
+}
+
+p:hover {
+    opacity: 0.6;
+}
+
+.formulario {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.formulario legend {
+    font-weight: 700;
+    font-size: 42px;
+    color: #1F1F1F;
+
+}
+
+.contenedor_formulario {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    font-weight: 530;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 30px;
+}
+
+
+.contenedor_formulario input {
+    border: 0;
+    padding: 0, 0, 30px;
+    width: 50%;
+    border-bottom: 2px solid #FF3333;
+}
+
+.contenedor_btn {
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.btn_ingreso {
+
+
+    border: 0;
+    padding: 10px 10px;
+    margin-top: 15px;
+    background-color: #FF3333;
+    color: rgb(255, 255, 255);
+
+    font-weight: 500;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+
+.btn_ingreso:hover {
+    background-color: #d32929;
+}
+
+.contenedor_recordarme {
+    margin-top: 30px;
+}
+
+.contenedor_olv {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.contenedor_olv a {
+    text-decoration: none;
+    color: #1D84B5;
+    margin: 20px
+}
+
+.contact_footer {
+    display: flex;
+    justify-items: center;
+    background: #30343F;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.contact_footer nav ul li{
+    list-style: none;
+}
+.contact_footer nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 300ms;
+   
+}
+
+
+.contact_footer nav ul li a:hover {
+    opacity: 0.6;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tabla{
+    width: 80%;
+}
+.tabla tr{
+    text-align: center;
+}
+.tabla td img{
+    width: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+.buscador{
+    display: flex;
+    margin-top: 30px;
+
+}
+.buscador img{
+    width: 30px;
+    margin-right: 15px;
+}
+.buscador input {
+    width: 500px;
+    height: 25px;
+    margin-bottom: 40px;
+}
+.titulo{
+    width: 95.7%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+    
+}
+.default{
+    width: 100%;
+}
+.titulo div{
+    display: flex;
+    align-items: center;
+}
+.titulo img{
+    width: 23px;  
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.imagen_footer{
+   width: 140px;
+}
+.pie{
+    background: #30343F;
+    
+}
+.pie p{
+    justify-content: center;
+    padding-bottom: 15px;
+}

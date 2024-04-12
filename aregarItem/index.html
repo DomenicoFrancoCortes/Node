@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:wght@100;300;400&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Create</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+
+            <div class="contenedor">
+                <a href="../home/index.html">
+                <img class="img1" src="/img/Vector.png" alt="logo">
+                <img class="img2" src="/img/Vector (1).png" alt="name shop">
+            </a>
+            </div>
+            <div class="menu_salir">
+                <p>SALIR</p>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="formulario">
+
+
+
+        <form>
+            <legend>CREAR NUEVO ITEM</legend>
+            <div class="selec">
+                <label  >Categoria:</label>
+                <p>
+
+                    <select name="Seleccionar">
+                        <option disabled selected>Seleccionar</option>
+                        <option>STAR WARS</option>
+                        <option>POKEMON</option>
+                        <option>HARRY POTTER</option>
+                        <option>MARVEL</option>
+
+                    </select>
+                </p>
+            
+            
+                <label>Licencia:</label>
+                <p>
+
+                    <select name="Seleccionar">
+                        <option disabled selected>Seleccionar</option>
+                        <option>STAR WARS</option>
+                        <option>POKEMON</option>
+                        <option>HARRY POTTER</option>
+                        <option>MARVEL</option>
+
+                    </select>
+                </p>
+            </div>
+            <div class="contenedor_formulario_especifico">
+                <label for="GET-nombre">Nombre del Producto:</label>
+                <input id="GET-nombre" type="text" name="nombre">
+            </div>
+
+            <div class="contenedor_formulario">
+                <textarea name="descripcion" placeholder="Descripcion del Producto" cols="30" rows="10"></textarea>
+            </div>
+            <div class="contenedor_formulario">
+                <label for="GET-codigoProdu">SKU:</label>
+                <input id="GET-codigoProdu" type="text" name="codigoProdu">
+           
+            
+                <label for="GET-precio">Precio:</label>
+                <input id="GET-precio" type="text" name="precio">
+           
+            
+                <label for="GET-stock">Stock:</label>
+                <input id="GET-stock" type="text" name="stock">
+            </div>
+            <div class="contenedor_formulario">
+                <label for="GET-desc">Descuento:</label>
+                <input id="GET-desc" type="text" name="desc">
+          
+            
+                <label>Cuotas:</label>
+                <p>
+
+                    <select name="Seleccionar">
+                        <option disabled selected>3 Cuotas sin interés</option>
+                        <option>1</option>
+                        <option>3</option>
+                        <option>6</option>
+                        <option>9</option>
+
+                    </select>
+                </p>
+            </div>
+            <div class="cargar">
+                <label for="uploads"> Imágenes: </label>
+                <p>
+                  <input type="file" id="uploads" name="uploads" accept=".jpg, .jpeg, .png, .svg, .gif" onchange="cargarMiniatura(event)" multiple />
+                </p>
+              </div>
+              
+              <div id="miniaturas"></div>
+            
+            <div class="imagenProducto">
+                <img  id="miniatura" src="#" alt="">
+            </div>
+            <div class="contenedor_btn">
+                <input class="btn_ingreso" type="submit" value="Agregar Producto">
+
+            
+            
+                <input class="btn_ingreso" type="button" value="Limpiar">
+
+            </div>
+        </form>
+    </div>
+
+    <footer class="contact_footer">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="/listProd/index.html">SHOP</a></li>
+                    <li><a href="/registro/index.html">REGISTRARSE</a></li>
+                    <li><a href="/login/login.html">INGRESAR</a></li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <img class="imagen_footer" src="/img/Vector.png" alt="logo">
+        </div>
+
+
+    </footer>
+    <div class="pie">
+        <p>All rights reserved 2022 - Funkoshop &copy;</p>
+    </div>
+
+    <script src="../scrip2.js"></script>
+</body>
+
+</html>
